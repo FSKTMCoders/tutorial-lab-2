@@ -30,27 +30,27 @@
         System.out.println("The amount is " + AMOUNT);
     ```
     b.
-        ```
-        string chapter = 'Summary';
-        System.out.println(chapter);
-        ```
+    ```
+    string chapter = 'Summary';  
+    System.out.println(chapter);  
+    ```
     c.
-        ```
-        int num;
-        ++num++;
-        num1 = num;
-        ```
+    ```
+    int num;  
+    ++num++;  
+    num1 = num;  
+    ```
     d.
-        ```
-        int num = 3000;
-        System.out.printf("%4.2f\n", num);
-        ```
+    ```
+    int num = 3000;  
+    System.out.printf("%4.2f\n", num);  
+    ```
     e.
-        ```
-        String contact;  
-        Scanner keyboard = new Scanner(System.out);  
-        contact = keyboard.nextLine();  
-        ```
+    ```
+    String contact;  
+    Scanner keyboard = new Scanner(System.out);  
+    contact = keyboard.nextLine();  
+    ```
 
 6.  Write a java program that print the circumference of a circle. The input of the program is diameter.
     Display the result in three decimal places. (Note $\pi=$ Math.PI)
