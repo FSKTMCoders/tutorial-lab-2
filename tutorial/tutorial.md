@@ -2,25 +2,25 @@
 # WIX1002 Fundamentals of Programming
 ## Tutorial 2 Java Fundamental
 
-1.  Display the sentence `Faculty of Computer Science and Information Technology`.
-    a.  In one line using multiple Java statements
-    b.  In multiple lines using one Java statement
+1.  Display the sentence `Faculty of Computer Science and Information Technology`.  
+    a.  In one line using multiple Java statements  
+    b.  In multiple lines using one Java statement  
 
 2.  Write a Java statement that print `"SDN" - Software-defined networking`
 
-3.  Correct the error for the following statements.
-    a.  `System.Println("Java Programming");`
-    b.  `System.in.println("Introduction to Java!")`
-    c.  `System.out.println("\t is the horizontal tab character");`
-    d.  `system.out.println("Java is case sensitive!" );`
+3.  Correct the error for the following statements.  
+    a.  `System.Println("Java Programming");`  
+    b.  `System.in.println("Introduction to Java!")`  
+    c.  `System.out.println("\t is the horizontal tab character");`  
+    d.  `system.out.println("Java is case sensitive!" );`  
 
-4.  Write statements for each of the following
-    a.  Declare a variable that used to store the value of a matric number.
-    b.  Declare a variable that used to store the value of $\pi$.
-    c.  Initialize a variable named `M` with the value set to `false`.
-    d.  Initialize a variable named `P` with the value set to `8800000000`.
-    e.  Initialize a variable named `letter` with the value set to `U`.
-    f.  Declare a constant variable named `PRO`. The value of the constant variable is `Java`.
+4.  Write statements for each of the following  
+    a.  Declare a variable that used to store the value of a matric number.  
+    b.  Declare a variable that used to store the value of $\pi$.  
+    c.  Initialize a variable named `M` with the value set to `false`.  
+    d.  Initialize a variable named `P` with the value set to `8800000000`.  
+    e.  Initialize a variable named `letter` with the value set to `U`.  
+    f.  Declare a constant variable named `PRO`. The value of the constant variable is `Java`.  
 
 5.  Correct the error for the following statements.
     a.
