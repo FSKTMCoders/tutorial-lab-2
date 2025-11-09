@@ -1,0 +1,20 @@
+public class DigitSumGenerator {
+    public static void main(String[] args) {
+        int randomNumber = (int)(Math.random() * 10001); 
+
+        System.out.println("The random number is: " + randomNumber);
+
+        int tempNum = randomNumber;
+        int sumOfDigits = 0;
+
+        while (tempNum > 0) {
+            int lastDigit = tempNum % 10;
+            
+            sumOfDigits += lastDigit; 
+            
+            tempNum /= 10; 
+        }
+
+        System.out.println("The sum of all the digits in the number is: " + sumOfDigits);
+    }
+}
