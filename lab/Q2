@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class CarLoanCalculator {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the price: ");
+        double P = input.nextDouble();
+
+        System.out.print("Enter the Down payment : ");
+        double D = input.nextDouble();
+
+        System.out.print("Enter the Interest Rate in % : ");
+        double R = input.nextDouble();
+
+        System.out.print("Enter the Loan duration in year : ");
+        double Y = input.nextDouble();
+
+        // 3. 使用公式计算
+        double M = (P - D) * (1 + R * Y / 100) / (Y * 12);
+
+        [cite_start]// 4. 格式化并打印结果 [cite: 6, 7, 9]
+        System.out.printf("The monthly payment is: %.2f\n", M);
+    }
+}
