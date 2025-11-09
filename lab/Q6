@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class WaterHeater {
+    public static void main(String[] args) {
+   
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the amount of water in gram: ");
+        double amountOfWaterInGram = input.nextDouble(); 
+
+        System.out.print("Enter the initial temperature in Fahrenheit: ");
+        double initialFahrenheit = input.nextDouble(); 
+
+        System.out.print("Enter the final temperature in Fahrenheit: ");
+        double finalFahrenheit = input.nextDouble(); 
+        
+        double M = amountOfWaterInGram / 1000.0;
+
+        double initialCelsius = (initialFahrenheit - 32) / 1.8;
+        double finalCelsius = (finalFahrenheit - 32) / 1.8;
+
+        double Q = M * (finalCelsius - initialCelsius) * 4184;
+
+        System.out.println("The energy needed is " + Q);
+    }
+}
